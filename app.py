@@ -86,7 +86,7 @@ def generate_pdf(customer_name: str, location: str, subject: str, items: list, t
 
     c.setFont("Helvetica", 8.5)
     c.drawString(left_margin + 15, y - 22, "Complete Office Solutions • Chairs • Executive Desks • Workstations")
-    c.drawString(left_margin + 15, y - 36, "New Charlie Trade Centre, 2nd Floor A-208, Near Tecno City Mall, Karachi")
+    c.drawString(left_margin + 15, y - 36, "Clifton")
 
     c.setFont("Helvetica-Bold", 12)
     c.drawRightString(right_margin - 15, y - 10, "INVOICE / BILL")
@@ -214,8 +214,7 @@ with st.sidebar:
     st.markdown("### 📍 Business Address")
     st.info(
         "**Hadi Traders**  \n"
-        "New Charlie Trade Centre, 2nd Floor A-208,  \n"
-        "Near Tecno City Mall, Karachi, Pakistan  \n"
+        "Clifton  \n"
         "📞 *Direct Sales & Quotations Available*"
     )
     st.markdown("---")
