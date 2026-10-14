@@ -1,12 +1,12 @@
-# Al Jannat Traders - Bill & Invoice Generator
+# Hadi Traders - Bill & Invoice Generator
 
-A lightweight, streamlined desktop web application built with **Streamlit** and **ReportLab** to generate professional PDF quotation and billing invoices for **Al Jannat Traders** (Office Furniture & Solutions).
+A lightweight, streamlined desktop web application built with **Streamlit** and **ReportLab** to generate professional PDF quotation and billing invoices for **Hadi Traders** (Office Furniture & Solutions).
 
 ---
 
 ## 📌 Features
 
-- **Company Header & Branding**: Automatic inclusion of Al Jannat Traders business details and address.
+- **Company Header & Branding**: Automatic inclusion of Hadi Traders business details and address.
 - **Client & Job Details**: Fields for Customer Name, Site Location, and Bill Subject.
 - **Dynamic Line Items**: Add between 1 and 20 item rows dynamically with Description, Quantity, and Unit Rate.
 - **Automatic Calculations**: Real-time line item total, transport charge handling, customizable tax percentage, and grand total.
@@ -36,7 +36,7 @@ Ensure you have **Python 3.12+** installed on your system.
 
 1. Clone or open the repository folder:
    ```bash
-   cd al-jannat-traders
+   cd hadi-traders
    ```
 
 2. Run the application directly with `uv`:
@@ -59,7 +59,7 @@ Ensure you have **Python 3.12+** installed on your system.
 
 2. Install dependencies:
    ```bash
-   pip install -r pyproject.toml
+   pip install -r requirements.txt
    # OR
    pip install streamlit reportlab
    ```
@@ -76,9 +76,10 @@ The application will start and open automatically in your default browser at `ht
 ## 📁 Project Structure
 
 ```text
-al-jannat-traders/
+hadi-traders/
 ├── app.py             # Main Streamlit application and PDF generator
 ├── pyproject.toml     # Project metadata and dependencies
+├── requirements.txt   # Dependencies for cloud deployment
 ├── uv.lock            # Locked dependency tree (uv)
 ├── .python-version    # Target Python version (3.12)
 ├── invoices/          # Directory where generated PDF bills are saved
@@ -103,4 +104,4 @@ al-jannat-traders/
 
 ## 📄 License
 
-Internal utility for **Al Jannat Traders**. All rights reserved.
+Internal utility for **Hadi Traders**. All rights reserved.

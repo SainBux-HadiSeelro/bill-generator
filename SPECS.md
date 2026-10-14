@@ -1,7 +1,7 @@
-# System & Technical Specifications: Al Jannat Traders Bill Generator
+# System & Technical Specifications: Hadi Traders Bill Generator
 
 **Document Version:** 1.0.0  
-**Project:** Al Jannat Traders - Invoice & Bill Generator  
+**Project:** Hadi Traders - Invoice & Bill Generator  
 **Status:** Implemented (Active)  
 **Primary Target File:** `app.py`  
 
@@ -9,7 +9,7 @@
 
 ## 1. Executive Summary & Purpose
 
-The **Al Jannat Traders Bill Generator** is an internal business tool designed to generate standardized commercial invoices/bills for office furniture sales and installations. The system replaces manual invoice formatting with an automated, reactive web interface that compiles entries into printable A4-sized PDF documents with automated price, transport, and taxation calculations.
+The **Hadi Traders Bill Generator** is an internal business tool designed to generate standardized commercial invoices/bills for office furniture sales and installations. The system replaces manual invoice formatting with an automated, reactive web interface that compiles entries into printable A4-sized PDF documents with automated price, transport, and taxation calculations.
 
 ---
 
@@ -90,7 +90,7 @@ The application is structured as a single-tier lightweight desktop web app:
 - **Left Margin:** $X = 50\text{ pt}$.
 
 ### 5.2 Header Section
-- **Company Name:** Font `Helvetica-Bold`, size `16pt`. Output: `AL JANNAT TRADERS`
+- **Company Name:** Font `Helvetica-Bold`, size `16pt`. Output: `HADI TRADERS`
 - **Sub-tagline:** Font `Helvetica`, size `9pt`. Output: `"We deal in all kinds of office furniture including Chairs, Tables, Workstations, and Complete Office Solutions"`
 - **Physical Address:** Font `Helvetica`, size `9pt`. Output: `"New Charlie Trade Centre 2nd Floor A-208, Near Tecno City Mall"`
 

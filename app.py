@@ -4,7 +4,7 @@ from reportlab.pdfgen import canvas
 import datetime
 import os
 
-st.set_page_config(page_title="Al Jannat Traders - Invoice Generator", layout="centered")
+st.set_page_config(page_title="Hadi Traders - Invoice Generator", layout="centered")
 
 # ---------------------
 # PDF GENERATOR FUNCTION
@@ -19,7 +19,7 @@ def generate_pdf(customer_name, location, subject, items, transport, tax_rate):
     y = height - 50
 
     c.setFont("Helvetica-Bold", 16)
-    c.drawString(50, y, "AL JANNAT TRADERS")
+    c.drawString(50, y, "HADI TRADERS")
     y -= 20
     c.setFont("Helvetica", 9)
     c.drawString(50, y, "We deal in all kinds of office furniture including Chairs, Tables, Workstations, and Complete Office Solutions")
@@ -89,7 +89,7 @@ def generate_pdf(customer_name, location, subject, items, transport, tax_rate):
 # STREAMLIT UI
 # ---------------------
 
-st.title("🧾 Al Jannat Traders - Bill Generator")
+st.title("🧾 Hadi Traders - Bill Generator")
 
 # Controlled via session_state
 if "num_items" not in st.session_state:
